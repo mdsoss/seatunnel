@@ -64,7 +64,8 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
 
         <slf4j.version>1.7.25</slf4j.version>
-        <log4j2.version>2.17.1</log4j2.version>
+<!--        <log4j2.version>2.17.1</log4j2.version>-->
+        <log4j2.version>2.18.0</log4j2.version>
         <log4j2-disruptor.version>3.4.4</log4j2-disruptor.version>
         <log4j.version>1.2.17</log4j.version>
         <logback.version>1.2.3</logback.version>
@@ -85,7 +86,8 @@
         <hadoop.binary.version>2.7</hadoop.binary.version>
         <jackson.version>2.12.6</jackson.version>
         <lombok.version>1.18.24</lombok.version>
-        <commons-compress.version>1.20</commons-compress.version>
+<!--        <commons-compress.version>1.20</commons-compress.version>-->
+        <commons-compress.version>1.21</commons-compress.version>
         <skip.pmd.check>false</skip.pmd.check>
         <maven.deploy.skip>false</maven.deploy.skip>
         <maven.javadoc.skip>false</maven.javadoc.skip>
@@ -104,7 +106,7 @@
         <commons-io.version>2.11.0</commons-io.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
-        <commons-compress.version>1.20</commons-compress.version>
+<!--        <commons-compress.version>1.20</commons-compress.version>-->
         <protostuff.version>1.8.0</protostuff.version>
         <spark.scope>provided</spark.scope>
         <flink.scope>provided</flink.scope>
@@ -119,7 +121,8 @@
         <maven-helper-plugin.version>3.2.0</maven-helper-plugin.version>
         <flatten-maven-plugin.version>1.3.0</flatten-maven-plugin.version>
         <maven-license-maven-plugin>1.20</maven-license-maven-plugin>
-        <log4j-core.version>2.17.1</log4j-core.version>
+<!--        <log4j-core.version>2.17.1</log4j-core.version>-->
+        <log4j-core.version>2.18.0</log4j-core.version>
         <docker-maven-plugin.version>0.38.0</docker-maven-plugin.version>
         <maven-dependency-plugin.version>3.1.1</maven-dependency-plugin.version>
         <p3c-pmd.version>1.3.0</p3c-pmd.version>
@@ -131,7 +134,8 @@
         <skipUT>false</skipUT>
         <skipIT>true</skipIT>
         <elasticsearch>7</elasticsearch>
-        <guava.version>27.0-jre</guava.version>
+<!--        <guava.version>27.0-jre</guava.version>-->
+        <guava.version>30.0-android</guava.version>
         <auto-service.version>1.0.1</auto-service.version>
         <hadoop2.version>2.6.5</hadoop2.version>
         <seatunnel.shade.package>org.apache.seatunnel.shade</seatunnel.shade.package>

@@ -35,7 +35,43 @@
             <groupId>com.datastax.oss</groupId>
             <artifactId>java-driver-core</artifactId>
             <version>${cassandra.driver.version}</version>
+            <exclusions>
+                <exclusion>
+                    <!-- 漏洞修复 1 -->
+                    <groupId>com.github.jnr</groupId>
+                    <artifactId>jnr-posix</artifactId>
+                </exclusion>
+                <exclusion>
+                    <!-- 漏洞修复 2 -->
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-codec</artifactId>
+                </exclusion>
+                <exclusion>
+                    <!-- 漏洞修复 3 -->
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-handler</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
+        <dependency>
+            <!-- 漏洞修复 1 -->
+            <groupId>com.github.jnr</groupId>
+            <artifactId>jnr-posix</artifactId>
+            <version>3.1.8</version>
+        </dependency>
+        <dependency>
+            <!-- 漏洞修复 2 -->
+            <groupId>io.netty</groupId>
+            <artifactId>netty-codec</artifactId>
+            <version>4.1.68.Final</version>
+        </dependency>
+        <dependency>
+            <!-- 漏洞修复 3 -->
+            <groupId>io.netty</groupId>
+            <artifactId>netty-handler</artifactId>
+            <version>5.0.0.Alpha1</version>
+        </dependency>
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>

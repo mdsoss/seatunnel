@@ -42,6 +42,20 @@
             <groupId>io.sentry</groupId>
             <artifactId>sentry-logback</artifactId>
             <version>${sentry.version}</version>
+            <exclusions>
+                <exclusion>
+                    <!-- 漏洞修复 -->
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <!-- 漏洞修复 -->
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.10</version>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.seatunnel</groupId>

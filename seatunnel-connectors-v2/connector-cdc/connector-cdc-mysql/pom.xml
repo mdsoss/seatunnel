@@ -96,6 +96,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.28</version><!--  漏洞修复添加 -->
         </dependency>
     </dependencies>
 

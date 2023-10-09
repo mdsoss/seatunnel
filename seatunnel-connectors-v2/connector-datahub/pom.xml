@@ -41,7 +41,19 @@
             <groupId>com.aliyun.datahub</groupId>
             <artifactId>aliyun-sdk-datahub</artifactId>
             <version>${datahub.version}</version>
+            <exclusions>
+                <exclusion>
+                    <!-- 漏洞修复 -->
+                    <groupId>com.google.protobuf</groupId>
+                    <artifactId>protobuf-java</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
-
+        <dependency>
+            <!-- 漏洞修复 -->
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.16.1</version>
+        </dependency>
     </dependencies>
 </project>
