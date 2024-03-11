@@ -71,7 +71,9 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-handler</artifactId>
             <!--            <version>5.0.0.Alpha1</version>-->
-            <version>4.1.83.Final</version>
+            <!--            <version>4.1.83.Final</version>-->
+            <!--            第三次修改-->
+            <version>4.1.99.Final</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>

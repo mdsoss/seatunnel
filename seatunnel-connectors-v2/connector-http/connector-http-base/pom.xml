@@ -67,7 +67,8 @@
         <dependency>
             <groupId>com.jayway.jsonpath</groupId>
             <artifactId>json-path</artifactId>
-            <version>${json-path.version}</version>
+            <!--            <version>${json-path.version}</version>-->
+            <version>2.9.0</version>
         </dependency>
     </dependencies>
 </project>
